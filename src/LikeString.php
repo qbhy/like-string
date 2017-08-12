@@ -4,7 +4,12 @@ namespace Qbhy\LikeString;
 
 class LikeString
 {
-    public static function FormatFullMatch($format, $str)
+    /**
+     * @param $format
+     * @param $str
+     * @return bool
+     */
+    public static function formatFullMatch($format, $str)
     {
         $formatLen = strlen($format);
         $strLen = strlen($str);
@@ -24,4 +29,7 @@ class LikeString
         }
         return true;
     }
+
+
+
 }
