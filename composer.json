@@ -1,0 +1,21 @@
+{
+    "name": "96qbhy/like-string",
+    "description": "简单的字符串相似度匹配函数。",
+    "license": "MIT",
+    "keywords": [
+        "字符串相似度",
+        "like-string",
+        "string"
+    ],
+    "authors": [
+        {
+            "name": "96qbhy",
+            "email": "96qbhy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Qbhy\\LikeString\\": "src/"
+        }
+    }
+}
